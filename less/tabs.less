@@ -1,0 +1,112 @@
+.tab-main {
+    padding: 40px 0;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    width: 80%;
+    text-align: center;
+}
+
+.inner-wrap {
+    margin: 0 auto;
+    width: 55%;
+    padding-top: 4em;
+    text-align: center;
+
+}
+
+.tab-main section {
+    display: none;
+}
+
+.tab-main input.sm {
+    display: none;
+}
+
+
+
+.tab-main label {
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #595a5a;
+    border: 2px solid #ffffff47;
+    border-radius: 4px;
+    background: #fff;
+    margin: 0 2px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.tab-main span {
+    margin-right: 0.5em;
+}
+
+/*----*
+.tab-main label:before {
+    font-family: fontawesome;
+    font-weight: normal;
+    margin-right: 10px;
+    opacity: 0;
+    display: none;
+}
+.tab-main label[for*='1']:before {
+    content: '\f1cb';
+}
+.tab-main label[for*='2']:before {
+    content: '\f17d';
+}
+.tab-main label[for*='3']:before {
+    content: '\f16c';
+}
+.tab-main label[for*='4']:before {
+    content: '\f171';
+}
+/*----*/
+.tab-main label:hover {
+    color: #ff4c4c;
+    cursor: pointer;
+}
+
+.tab-main input:checked + label {
+    color: #ff4c4c;
+    border: 2px solid #fff;
+    background: #fff;
+    /* border-top: 2px solid #FC427B; */
+    /* border-bottom: 1px solid #fff; */
+    border-radius: 4px;
+}
+
+.tab-main #tab1:checked ~ #content1,
+.tab-main #tab2:checked ~ #content2,
+.tab-main #tab3:checked ~ #content3,
+.tab-main #tab4:checked ~ #content4 {
+    display: block;
+}
+
+@media screen and (max-width: 800px) {
+    .tab-main label:before {
+        margin: 0;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tab-main label {
+        padding: 15px;
+    }
+}
+
+h4.sub-title.two {
+    color: #fd0;
+}
+
+.gal-img {
+    padding: 0;
+}
+
+.gal-img img {
+    border-radius: 0px;
+}
